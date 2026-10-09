@@ -6,8 +6,8 @@ export const PAGES: PagesConfig = {
         subtitle: "",
         isActive: true,
     },
-    blog: {
-        title: "Blog",
+    papers: {
+        title: "Projects + Papers",
         subtitle: "Thoughts on physics, philosophy, and music.",
         isActive: true,
     },
