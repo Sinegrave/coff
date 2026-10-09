@@ -7,7 +7,7 @@ export const PAGES: PagesConfig = {
         isActive: true,
     },
     blog: {
-        title: "Posts",
+        title: "Projects",
         subtitle: "Academic essays, hobbiest projects, thoughts about musical theatre.",
         isActive: true,
     },
