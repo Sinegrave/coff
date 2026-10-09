@@ -4,7 +4,7 @@ export const SITE: SiteConfig = {
     website: "https://shannon.github.io/academic-portfolio-astro/",
     author: "Afi Belgrave",
     desc: "Personal academic portfolio of Afi Belgrave.",
-    title: "Claude Shannon",
+    title: "Afi Belgrave",
     ogImage: "shannon.webp",
     postPerPage: 5,
     favicon: "/favicon.svg",
