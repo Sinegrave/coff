@@ -1,10 +1,10 @@
 import type { SiteConfig, ThemeConfig, SettingsConfig, UmamiAnalyticsConfig, AnalyticsConfig } from "../types";
 
 export const SITE: SiteConfig = {
-    website: "afi.coffee/",
+    website: "https://shannon.github.io/academic-portfolio-astro/",
     author: "Afi Belgrave",
     desc: "Personal academic portfolio of Afi Belgrave.",
-    title: "Afi Belgrave",
+    title: "Claude Shannon",
     ogImage: "shannon.webp",
     postPerPage: 5,
     favicon: "/favicon.svg",
