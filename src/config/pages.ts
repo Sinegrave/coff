@@ -8,7 +8,7 @@ export const PAGES: PagesConfig = {
     },
     blog: {
         title: "Projects + Papers",
-        subtitle: "Thoughts on physics, philosophy, and music.",
+        subtitle: "Academic essays, hobbiest projects, thoughts about musical theatre.",
         isActive: true,
     },
     publications: {
