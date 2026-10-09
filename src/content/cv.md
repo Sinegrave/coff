@@ -1,32 +1,31 @@
 ---
-name: "Claude Shannon"
-title: "Mathematician and Electrical Engineer"
+name: "Afi Belgrave"
+title: "Technical Journalist and Electronics Engineer"
 experience:
-  - role: "Research Mathematician"
-    institution: "Bell Telephone Laboratories"
-    period: "1941 - 1972"
-    description: "Conducted groundbreaking research in information theory, cryptography, and digital computing."
-  - role: "Professor of Electrical Engineering"
-    institution: "MIT"
-    period: "1958 - 1978"
-    description: "Taught courses in information theory, switching theory, and mathematical foundations of computing."
+  - role: "Test Technician + Troubleshooting"
+    institution: "Electronic Manufacturing Services Group, Inc"
+    period: "2023 - Present"
+    description: "Read wiring diagrams, schematics, data sheets, test manuals, performance specifications to ascertain testing procedure and equipment to be used."
+  - role: "Electronic Technician"
+    institution: "Flight Systems Industrial Products (FSIP)"
+    period: "2022 - 2023"
+    description: "Troubleshoot, diagnose, and repair motor controllers and electronic systems to component level."
 education:
-  - degree: "PhD in Mathematics"
-    institution: "MIT"
-    period: "1936 - 1940"
-    thesis: "An Algebra for Theoretical Genetics"
+  - degree: "Associate in Applied Science - General Studies"
+    institution: "Harrisburg Area Community College"
+    period: "2024 - 2026"
     description: "Developed mathematical foundations for genetic inheritance."
-  - degree: "Bachelor of Science in Electrical Engineering"
-    institution: "University of Michigan"
-    period: "1932 - 1936"
+  - degree: "Bachelor of Science in Automation & Robotics Engineering Technology"
+    institution: "Millersville University"
+    period: "2020 - Present"
+  - degree: "Associate in Science - Communication, Journalism Concentration"
+    institution: "Harrisburg Area Community College"
+    period: "2017 - 2019"
 ---
 
 ## Skills
-- Information Theory
-- Mathematics
-- Electrical Engineering
-- Cryptography
-- Computer Science
-
-## Biographical Summary
-Extra biographical notes or a summary can go here.
+- Java, C++, C#, Arduino, HTML, CSS5, Javascript
+- Adobe Suite, Unity, Blender, VS Code, Dreamweaver, Eclipse, Atom
+- MPLabs, Hyperterminal, Pickit 5, ICD 5, SUPERPRO, Dataman
+- Schematics, wiring diagrams
+- AP Style

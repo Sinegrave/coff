@@ -1,27 +1,26 @@
 ---
-name: "Claude Shannon"
+name: "Afi Belgrave"
 avatar: "shannon.jpg"
-shortBio: "Mathematician and electrical engineer known as the 'Father of Information Theory'. Pioneer in digital computing and cryptography."
-institution: "MIT, Cambridge MA"
+shortBio: "Journalism and robotics student based outside of Harrisburg, PA."
 ---
 
-I am a mathematician and electrical engineer best known for founding **Information Theory**. My work in the late 1940s established the theoretical foundations of modern digital communications and computing.
+At present, I am a electronics test technician and troubleshooter. Through my studies, I've become familar with PLCs, Arduino, Java, C++, science writing, and digital publication.
 
 ## My Life
 
-Born in Petoskey, Michigan on April 30, 1916, I showed an early aptitude for engineering and mathematics. After studying at the University of Michigan, I completed my PhD at MIT where I famously applied Boolean algebra to electrical circuits. My master's thesis on relay switching circuits is considered one of the most important master's theses ever written.
+I began my academic journey at Lebanon Valley College immediately after high school. Here, I spent a year studying Digital Communications. I then transfered to Harrisburg Area Community College where I ultimately obtained two degrees — one in journalism, and one in general studies.
 
-During World War, I worked at Bell Labs on fire control systems and cryptography, which led to my seminal work in information theory.
+Throughout this time, I worked many jobs — from waiting tables to dealing Blackjack — in order to pay for my education. I've since landed a job in the field of electronics, where I've been ever since.
 
 ## Current Work
 
-I continue to work on various problems at the intersection of mathematics, engineering, and computer science. My interests include artificial intelligence, pattern recognition, game theory, and the fundamental limits of computation.
+I currently work in the field of electronics testing where I ensure products work properly before sending them to our customers. At the time of writing, I have been working in this postion for the past five years.
 
-I also enjoy juggling, unicycling, and playing the clarinet - I even built a juggling machine!
+I also enjoy reading, writing, and video games - I've even created several!
 
 ## Research Interests
 
-My research focus includes: **Information Theory**, **Cryptography**, **Digital Computing**, **Artificial Intelligence**, **Game Theory**, and **Switching Circuits**.
+My research focus includes: **Robotics**, **Sustainability**, **Mass Media**, and **Digital Circuitry**.
 
 ---
 
