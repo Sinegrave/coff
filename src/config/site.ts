@@ -18,8 +18,8 @@ export const THEME_CONFIG: ThemeConfig = {
 };
 
 export const SETTINGS: SettingsConfig = {
-    showTagsInNavbar: false,
-    showRSSInFooter: false,
+    showTagsInNavbar: true,
+    showRSSInFooter: true,
     addDevToolsInProduction: true,
 };
 

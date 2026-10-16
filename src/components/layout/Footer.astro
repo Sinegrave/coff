@@ -20,39 +20,8 @@ const showDevTools = import.meta.env.DEV || SETTINGS.addDevToolsInProduction;
                 class="link">Academic Portfolio Astro</a
             ></span
         >
-        <a
-            href="/rss.xml"
-            aria-label="RSS Feed"
-            title="RSS Feed"
-            target="_blank"
-            rel="noreferrer"
-            class="btn-icon"
-        >
-            <Icon name="RSS" size={16} />
-        </a>
-        {
-            showToggle && (
-                <button
-                    id="theme-toggle"
-                    aria-label="Toggle Dark Mode"
-                    class="btn-icon"
-                >
-                    <Icon name="Sun" size={16} class="hidden dark:block" />
-                    <Icon name="Moon" size={16} class="block dark:hidden" />
-                </button>
-            )
-        }
-        {
-            showDevTools && (
-                <a
-                    href="/dev-tools"
-                    aria-label="Developer Tools"
-                    title="Developer Tools"
-                    class="btn-icon"
-                >
-                    <Icon name="Settings" size={16} />
-                </a>
-            )
-        }
+
+      
+        
     </div>
 </footer>
