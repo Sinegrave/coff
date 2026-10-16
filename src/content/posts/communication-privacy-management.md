@@ -16,7 +16,9 @@ tags:
 ## 1. Introduction
 
 The Communication Privacy Management Theory was developed by communications researcher Sandra Petronio in the early 1990s and originated as a way to examine the boundaries
-of disclosure within marriage. Over time, the theory evolved into a macrotheory which can be applied to any number of groups, social structures, and/or personal relationships. 
+of disclosure within marriage. 
+
+Over time, the theory evolved into a macrotheory which can be applied to any number of groups, social structures, and/or personal relationships. 
 
 The Communication Privacy Management Theory, often shortened to CPM, can be assigned to the interpretive tradition of communication studies as the base structure of the theory is steeped in the idea that free-will is governing and our choices are our own.
 
