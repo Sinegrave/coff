@@ -1,7 +1,7 @@
 ---
 name: "Afi Belgrave"
 avatar: "shannon.jpg"
-shortBio: "Journalism and robotics student based outside of Harrisburg, PA."
+shortBio: "Automation and controls. Robots and writing. Based outside of Harrisburg, PA."
 ---
 
 At present, I am a electronics test technician and troubleshooter. Through my studies, I've become familar with PLCs, Arduino, Java, C++, science writing, and digital publication.
