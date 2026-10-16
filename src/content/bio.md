@@ -16,7 +16,7 @@ Throughout this time, I worked many jobs — from waiting tables to dealing Blac
 
 I currently work in the field of electronics testing where I ensure products work properly before sending them to our customers. At the time of writing, I have been working in this postion for the past five years.
 
-Off the clock, I enjoy reading, writing, and video games.
+Off the clock, I enjoy reading, writing, and mocha lattes.
 
 ## Research Interests
 
@@ -24,4 +24,5 @@ My research focus includes: **Robotics**, **Sustainability**, **Mass Media**, an
 
 ---
 
-*"I am a mathematician. I am interested in the fundamental limits on the rate at which information can be transmitted."*
+*“Eras are conveniences, particularly for those who never experienced them. We carve history from totalities beyond our grasp.”*
+― William Gibson, The Peripheral
