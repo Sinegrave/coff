@@ -14,13 +14,15 @@ education:
   - degree: "Bachelor of Science in Automation & Robotics Engineering Technology"
     institution: "Millersville University"
     period: "2020 - Present"
+    description: "Courses include Artificial Intelligence, Industrial Robotic Systems, and Occupational Safety."
   - degree: "Associate in Applied Science - General Studies"
     institution: "Harrisburg Area Community College"
     period: "2024 - 2026"
-    description: "Developed mathematical foundations for genetic inheritance."
+    description: "Courses included Computer-Aided Drafting and Design, Data Structures C++, and Microprocessors and Embedded Systems."
   - degree: "Associate in Science - Communication, Journalism Concentration"
     institution: "Harrisburg Area Community College"
     period: "2017 - 2019"
+    description: "Courses included Media Writing, News Writing and Reporting, Design for Web, and more."
 ---
 
 ## Skills
