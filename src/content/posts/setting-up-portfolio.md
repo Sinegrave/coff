@@ -1,40 +1,51 @@
 ---
-title: "Setting up Your Academic Portfolio"
-date: "2026-04-28"
-description: "A comprehensive guide on how to clone, configure, and deploy your new academic portfolio."
-author: "Claude Shannon"
+title: "Communication Privacy Management"
+date: "2019-01-28"
+description: "An overview of Communication Privacy Management Theory"
+author: "Afi Belgrave"
 tags:
-  - "Documentation"
-  - "Setup"
-  - "Astro"
-  - "Portfolio"
+  - "Communication Theory"
+  - "Communication"
+  - "CPM"
 ---
 
-# Setting up Your Academic Portfolio
+# Communication Privacy Management
 
-Welcome to your new academic portfolio! This template is built with Astro and designed specifically for academics, researchers, and professionals who need a clean, highly performant, and customizable website to showcase their work, publications, and thoughts.
+## 1. Introduction
 
-In this guide, I will walk you through everything you need to know to get your portfolio up and running—from cloning the repository to configuring your site and writing your first piece of content.
+The Communication Privacy Management theory was developed by communications researcher Sandra Petronio in the early 1990s and originated as a way to examine the boundaries
+of disclosure within marriage. Over time, the theory evolved into a macrotheory which can be applied to any number of groups, social structures, and/or personal relationships. The
+communication privacy management theory, often shortened to CPM, can be assigned to the interpretive tradition of communication studies as the base structure of the theory is steeped in the idea that free-will is governing and our choices are our own.
 
-## 1. Cloning the Repository
+CPM attempts to examine the barrier between our inner selves and our outer world hrough our choice to disclose information about ourselves of varying import. When sharing
+about ourselves, we make a conscious choice to do so. We choose to tell our Uber driver about our hectic day. We choose to our co-workers about our thoughts on our less than favorable boss. In believing that humans have free-will and control over our lives, the choices we make are
+assumed to be entirely our own. With this assumption in mind, CPM attempts to analyze why we make the choices we do when it comes to personal and intimate disclosure about ourselves and
+our thoughts. It sees every interaction as an opportunity for disclosure while also acknowledging the risks and benefits of said disclosure. Sharing too much with the wrong person can have social repercussions while sharing with the right person can strengthen relationships and build credibility. The theory assigns names to a number of aspects of socializing and believes that privacy comes with a set of inherent rules.
 
-First, you'll need to clone the repository to your local machine. You can do this using standard Git or the GitHub CLI.
+## 2. In Fiction, “All Those Parties We Didn’t Cry At”
 
-**Option A: Using Git**
-Open your terminal and run the following command:
+“All Those Parties We Didn’t Cry At” is a short work of interactive fiction created by
+cultural studies scholar and science fiction/fantasy author Natalia Theodoridou. Her short story
+describes a world where no one is able to cry; whether this is caused by supernatural causes or
+something man-made is not explained. In the story, the protagonist is prompted by a friend to
+share the last time she cried.
 
-```bash
-git clone https://github.com/rubzip/academic-portfolio-astro.git my-portfolio
-cd my-portfolio
-```
+> 'I was 12,’ Hayley says. ‘My dog had died. His name was Rusty.’ She closes her eyes. The underskin moist, smoky. ‘What children we were, back then, eh? I bawled for two days straight.’ 
+>
+> She sniffles. It all sounds a bit rehearsed. 
+> 
+> ‘You?’
 
-**Option B: Using GitHub CLI (Recommended)**
-If you want to create your own remote repository immediately using this one as a template, the GitHub CLI makes it very easy:
+In this interaction, we see the character, Hayley, openly disclosing information about her
+past that may otherwise be considered personal or private information. Because Hayley is the
+owner of this information, she is able to decide who she discloses this information to, and who
+she does not. In response, the narrator is reluctant to share her own private information and
+ultimately finds ways to avoid disclosing the truth.
 
-```bash
-gh repo create my-portfolio --template="rubzip/academic-portfolio-astro" --clone
-cd my-portfolio
-```
+> ‘I don't remember,’ I lie.
+> She looks at me sharply. ‘Come on, be real.’
+> ‘No, really," I say.
+> ‘Whatever,’ she says, ‘suit yourself.’ She glances at her watch, fishes a tissue out of her sleeve and wipes her eyes. ‘I should get going anyhow,’
 
 Next, install the project dependencies. This project uses `npm` (ensure you have Node.js >= 22.12.0 installed):
 
