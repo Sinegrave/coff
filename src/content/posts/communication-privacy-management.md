@@ -30,8 +30,8 @@ Sharing too much with the wrong person can have social repercussions while shari
 
 ## 2. In Fiction, “All Those Parties We Didn’t Cry At”
 
-“All Those Parties We Didn’t Cry At” is a short work of interactive fiction created by
-cultural studies scholar and science fiction/fantasy author Natalia Theodoridou. Her short story
+[All Those Parties We Didn't Cry At](https://sub-q.com/parties-didnt-cry/) is a short work of interactive fiction created by
+cultural studies scholar and science fiction/fantasy author [Natalia Theodoridou](https://www.natalia-theodoridou.com/). Her short story
 describes a world where no one is able to cry; whether this is caused by supernatural causes or
 something man-made is not explained. In the story, the protagonist is prompted by a friend to
 share the last time she cried.
