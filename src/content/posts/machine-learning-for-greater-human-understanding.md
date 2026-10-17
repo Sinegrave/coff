@@ -112,12 +112,5 @@ of social media.
 
 ## Conclusion
 
-These implementations demonstrate the practical application of information theory concepts. The same principles underlie:
-
-- **Data compression** (ZIP, JPEG, MP3)
-- **Error correction** (turbo codes, LDPC)
-- **Network protocols** (TCP/IP efficiency)
-
----
-
-*Information theory provides the mathematical foundation for all modern digital communication.*
+When collected ethically, the data we collect about the masses can be used to improve machinery
+and used to better understand ourselves.
