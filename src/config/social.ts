@@ -4,7 +4,7 @@ export const SOCIALS: SocialLink[] = [
     {
         name: "Github",
         href: "https://github.com/sinegrave",
-        linkTitle: `Follow Claude Shannon on Github`,
+        linkTitle: `Follow Afi Belgrave on Github`,
         isActive: true,
     },
     {
@@ -15,7 +15,7 @@ export const SOCIALS: SocialLink[] = [
     },
     {
         name: "LinkedIn",
-        href: "https://www.linkedin.com/in/afi-belgrave/",
+        href: "https://www.linkedin.com/in/afibelgrave/",
         linkTitle: `Afi Belgrave on LinkedIn`,
         isActive: true, // Assuming Claude doesn't have a LinkedIn profile
     },

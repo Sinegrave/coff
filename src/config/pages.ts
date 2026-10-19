@@ -8,7 +8,7 @@ export const PAGES: PagesConfig = {
     },
     blog: {
         title: "Projects",
-        subtitle: "Academic essays, hobbiest projects, thoughts about musical theatre.",
+        subtitle: "Largely academic papers written between my time at Harrisburg Area Community College and my time at Millersville University.",
         isActive: true,
     },
     publications: {
