@@ -1,56 +1,33 @@
 ---
-title: "Theseus - The Mouse in the Maze"
-date: "1950-03-01"
-description: "My famous experimental machine that learned to navigate a maze using telephone relay circuits and magnetism. One of the first examples of machine learning."
-author: "Claude Shannon"
+title: "Cobots - An Examination"
+date: "2022-10-27"
+description: "A literature review examining the current state of collaborative robots within the manufacturing industry."
+author: "Afi Belgrave"
 tags:
   - "AI"
   - "Robotics"
-  - "Machine Learning"
-  - "History"
+  - "Literature Review"
+  - "Industry"
 image: "/images/placeholder.svg"
 ---
 
-I built a mechanical mouse called **Theseus** that could navigate a maze using telephone relay circuits and magnetism. This was one of the first machines to demonstrate learning behavior.
 
-## How It Worked
+‘Cobots' — An Examination
+Submitted 27 Oct 2022
 
-The system used:
+In recent years, collaborative robots — also known as ‘cobots’— have revolutionized the workplace and pushed us into a what has been colloquially known as ‘Industrial 4.0,’ a phrase which describes the “the next generation of manufacturing [which] advocates the increased use of sensors, information and communication technologies” (Weiss, 2). Naturally, an image of the future which advocates for harmonious interactions between humans and machines is not without its pushbacks.  In Weiss, Wortmeier, and Kubicek’s essay Cobots in Industry 4.0: A Roadmap for Future Practice Studies on Human–Robot Collaboration, the ethical repercussions of human-computer interaction are discussed along with an examination of the robots currently seen in industry. Through their argument, readers can come to their own conclusion in regards to the current place of ‘cobots’ in the workplace. To this, Weiss and their team set out to share the current concerns with regards to cobots. Beyond this, they assess the parameters by which cobots are assessed, and make a call for the logistics of these terms.
+To start, Weiss, Wortmeier, and Kubicek define collaborative robots as a modern solution to age-old problems seen in the industry. They make a distinction between automation and collaboration, claiming that automation is the delegation of functions from a human to a machine, while collaboration robots are specifically programmed to to work, interact, and collaborate with humans (2). Other texts support this definition. Kadir, Broberg, and Conceição define cobots similarly in their 2018 essay Designing Human-Robot Collaborations In Industry 4.0: Explorative Case Studies. In this piece, Kadir — perhaps more liberally — describes human-robot collaboration as “a new generation of robots are that born free and unbounded by any type of fencing or enclosure, transcending the boundaries and workspace limitations that prevented their ancestors (standard industrial robots) from cohabitating and working side by side with their human counterparts” (Kadir, 601). This assessment, as colorful and utopian as it may be, does little to recognize the inherent concerns most apply to cobots. According to Weiss, chief among these concerns are safety, trust, programming, the allocation of responsibilities, acceptance by humans.
+ With these concerns clearly laid out for us, Weiss goes on to explain in detail why these problems are for cobots. Safety, for example, is described in these terms: typical research questions explore [...] how safe operations can be maintained and how to avoid putting the human operator in the shared workspace at risk. This, of course, is a large component to all workplace environments. The safety of employees must be placed above all else, something that separates Industry 4.0 from revolutions of the past. Previously, as we expanded upwards and outwards into new industrial territories, we held little regard for those who made our growth possible. In the past, working conditions were difficult and exposed employees to many risks and dangers, including cramped work areas with poor ventilation, trauma from machinery, toxic exposures to heavy metals, dust, and solvents [Boston University School of Public Health]. Contrasting this, modern machinery is designed with the safety of its operators placed in the forefront. Weiss believes that, while a great deal of emphasis is placed on machines’ efficiency, the safety should be ranked as the most important factor when developing collaborative machines. “We argue that future research on safety and situation awareness in human–robot collaboration should not only focus on optimizing performance but also on whether the operator actually feels safe and whether situation awareness is given from an operator-centered perspective.”
+Additionally, Weiss highlights aspects of automation which we’ve discussed in class. The four d’s — dirty, dangerous, demeaning, difficult — are areas where machines have commonly been used, but Weiss argues that these should not be the only places where cobots can/should be applied. “The ability to work around humans leads to the narrative that cobots can perform tedious, difficult, or dangerous operations[ …] but they enable higher level collaboration, including dynamic communication, optimization, learning, and program adjustments.  Empirical evidence indicates that, in Industry 4.0, manual and mental routine activities seem to be replaced, while analytical interactive work is becoming increasingly important” (3 - 4). To this end, Weiss advocates for greater research into what it is that machines can do beyond repetitive, ‘dirty’ tasks.
+Finally, and perhaps the component most prevalent in the public consciousness, is the concept of trust. For decades, the narrative has been that machines will steal jobs and place lower class people in further poverty. Rather than dismiss this claim, Weiss once again advocates for research and compassion, saying “we need broader stakeholder involvement when studying the actual impact of cobots on the future of work in Industry 4.0” [4]. In an instance that I have not seen before, Weiss considers cases where the trust between the cobot and the operator has been broken, and how this trust can potentially be mended. Examples of ‘broken trust’ include injury, error, unreliability, and faulty behavior (4). Instances where machines have performed poorly, how can we expect workers to continue to trust in the inherent goodness of cobots when they have been proven right? Weiss’s answer to this? “Trustworthiness should not only be studied as a robot-related factor but needs to be understood as the default situation between the human and the cobot” (4).
 
-1. **Telephone relay circuits**: To store and process maze information
-2. **Magnetism**: Steel wires embedded in the maze walls guided the mouse
-3. **Learning circuits**: Adaptive behavior through relay logic
 
-### The Learning Process
+Now that Weiss has explained the issues facing machines, they go on to explain how current research into these issues is lacking. “The issue of (un)controllability in sociotechnical systems,” they argue, “leads to responsibility dilemmas culminating in an ethical debate about automatization and robotization of work.” Given the proper settings and the proper space to examine machines, these debates can be avoided. Even the best-designed interaction paradigm for a cobot cannot cover all possible incidents, as autonomous robot behavior will always include unpredictable consequences (5).
+There is a disconnect, according to Weiss, between the machine and the profiters. This disconnect is illustrated within figure two, where the five components of the industrial complex are shown to have vastly different objectives and ways in which they’d like to approach those objectives. To conduct a meaningful study on human–robot work in Industry 4.0, it is necessary to consider different human and nonhuman actors, both in dyadic and larger constellations [7]. This brings Weiss and their team to their conclusion: research into collaborative robots should focus on several things at several different levels. It is not enough to only consider the concerns of the financial stakeholders, as it is not enough to consider the workers alone without giving consideration to profit margins and capital investment. Both of these goals must be studied in tandem  within the context of interaction, use cases, and structural impact [7]. 
+The narrative of cobots enabling safe, intuitive, and flexible interactions [...] sounds very promising, especially for small and medium-sized enterprises (SMEs). However, as our article shows, automation in the form of cobots has currently only found its way into the world of work in limited applications [9].
 
-1. **Initial exploration**: The mouse moves randomly through the maze
-2. **Success detection**: When it reaches the goal, the path is "remembered"
-3. **Memory storage**: Relay circuits store the successful path
-4. **Future navigation**: Subsequent attempts use the stored information
+Works Consulted
+A. Weiss, A. -K. Wortmeier and B. Kubicek, "Cobots in Industry 4.0: A Roadmap for Future Practice Studies on Human–Robot Collaboration," in IEEE Transactions on Human-Machine Systems, vol. 51, no. 4, pp. 335-345, Aug. 2021, doi: 10.1109/THMS.2021.3092684.
+Kadir, Bzhwen & Broberg, Ole & Conceição, Carolina. (2018). Designing human-robot collaborations in Industry 4.0 - explorative case studies. 10.21278/idc.2018.0319. 
+“The Evolution of Epidemiologic Thinking.” The Industrial Revolution, https://sphweb.bumc.bu.edu/otlt/mph-modules/ep/ep713_history/ep713_history4.html#:~:text=Working%20conditions%20were%20difficult%20and,metals%2C%20dust%2C%20and%20solvents. 
 
-The mouse would first explore randomly, but after finding the goal once, it could navigate directly to the goal every time.
-
-## Technical Details
-
-- **Relay memory**: 40+ telephone relays stored the maze solution
-- **Maze dimensions**: 5x5 grid (25 possible positions)
-- **Navigation**: Magnetic field sensors detected walls
-- **Size**: About the size of a small cat
-
-## Significance
-
-This was one of the first concrete examples of machine learning - a machine that could:
-
-- Sense its environment
-- Remember successful paths
-- Improve its performance over time
-
-The project demonstrated that machines could exhibit behavior that appeared intelligent, sparking discussions about the nature of intelligence itself.
-
-## Reception
-
-The machine was demonstrated at Bell Labs and generated significant interest. It was featured in Popular Science and Scientific American, making it one of the first AI projects to receive public attention.
-
----
-
-*Theseus showed that intelligence isn't unique to biological systems - it can be reproduced in machines using the right circuits.*
