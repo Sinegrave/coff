@@ -27,7 +27,7 @@ Ultimately, even with lots of tinkering, I was not able to figure out why my dis
 
 I created a second program called matrixTest.ino to work on the display without damaging the code as a whole. In this smaller program, the screen functioned properly, even when using the same printing function as in the main code:
 
-```
+``
 // CLOCK PULSE LOW
   digitalWrite (3, LOW);
   
@@ -72,6 +72,6 @@ I created a second program called matrixTest.ino to work on the display without 
   }
 }
 
-```
+``
 
 While I am still deeply confused by this, I'm proud of my work on this project. I find my code to be functional despite these display errors.
