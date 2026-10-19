@@ -1,116 +1,75 @@
 ---
-title: "Machine Learning - An Academic Proposal"
-date: "2019-06-01"
-description: "An academic proposal."
+title: "Arduino Troubleshooting Log"
+date: "2026-05-07"
+description: "Notes written while troubleshooting an Arduino project. Features Arduino code and my troubleshooting process."
 author: "Afi Belgrave"
 tags:
-  - "Machine Learning"
-  - "Research Proposal"
-  - "Technical Writing"
+  - "Arduino"
+  - "Troubleshooting"
+  - "Robotics"
+image: "/images/placeholder.svg"
 ---
 
-# Personality Assessment -- Machine Learning for Greater Human Understanding 
+	The issues with the LED Matrix are twofold. 
+    
+    For one, there is an 'echo ghost' one LED to the left of the printed values. The other issue is that the image as a whole is being displayed one pixel to the right. When items spawn in, they are appearing at [1,1] rather than [0,0]. This is strange because on my Serial.monitor(), they are being displayed properly in the [0,0] position, and the LED matrix has been designed to directly mirror what is being printed to the Serial.monitor().
 
-## Introduction 
-As humans, we are capable of failure. Beyond this, we are able to celebrate successes and learn
-from our failures. We are capable of investigating and interacting with the objects around us, and
-learn their function through trial and error. In this way, we learn that stoves are hot, water is wet,
-and electric sockets should not be tampered with. In this way, we learn from out mistakes.
+To me, these two issues are related. It appears if objects are momentarily being printed in the right spot, one pixel to the left, but then are for some reason being printed for a second time in the wrong spot one pixel to the right.
 
-Machine learning can described as technology’s way of not only learning from mistakes, but
-improving because of them (Nicholson, 2019). The algorithms that allow this to happen are
-known ‘neural networks’ and they’re designed to mimic human thought patterns. Currently,
-machine learning is being implemented across a multitude of fields, including but not limited to:
-advertising, media, manufacturing, healthcare, finances, and business. The capabilities of
-machine leaning are endless, but one field of machine leaning that deserves more study is the
-field of human-computer interaction and the way that machines can help assist us in
-understanding ourselves.
+To troubleshoot this, I have tried a number of things. I checked my wiring many, many times, and I have ensured that everything is indeed wired properly. I did this by going wire-by-wire across both the columns and the rows, and everything indeed corresponds with the proper output. If I pull out the wire for row four, then row four disappears. If I remove the wire from column six, then column six disappears. This way, I was able to prove that the issue was not with the wiring but with my code.
 
-“With ever-expanding memory capacities, the computer is rapidly becoming a giant storage and
-processing facility for recording and retrieving ‘bits of life’” (Dijck, 2005). In modern times, the
-internet offers a wealth of information. As described by Bleidorn, “People’s social media
-accounts (e.g., Facebook, Twitter) offer a compelling source of rich and intimate digital
-information... Along with the digital data that is automatically stored, machine learning
-researchers can collect more traditional psychological assessment data, such as scores on
-personality questionnaires” (Bleidorn, 2018). By examining the data collected ethically though
-social media platforms, we can gain a better understanding of human nature.
+I then went into my refresh() function and did my best to understand how things are being printed to the display. 
+		As there are 16 rows and 8 columns, I created nested for loops. My initial theory was that objects were not being printed at [0,0] because perhaps these loops were set for int = 1, or something similar. I spent a great deal of time changing how these loops increments, how long they loop for, and how they count. In the end, I was indeed able to shift how things were printing on my board, but this did not fix this issue of seeing column 2 and row 2 as column 1 and row 1.
 
-## Statement of Topic
-Machines aid humans daily, but we must look beyond the conventional means of assistance to
-understand the true potential of machine-assisted personality assessments. When utilized
-correctly, machine learning and consensual data collection can allow sociology researchers to
-learn more about what it means to be human.
+	Ultimately, even with lots of tinkering, I was not able to figure out why my display ended up this way. Presently, I believe that my function for moving and printing objects is defunct in some way, but this does not explain why things appear functional on the Serial.monitor().
 
-For this research assignment, I plan to examine what methods are currently being used for data
-extraction -- known also as ‘data scraping’ -- and what this data is currently being used for.
-Beyond this, I will examine what ethical data scraping for personality assessment could
-potentially be used for for the future of psychology and sociology.
+	I created a second program called matrixTest.ino to work on the display without damaging the code as a whole. In this smaller program, the screen functioned properly, even when using the same printing function as in the main code:
 
-## Proposed Research
+```
+// CLOCK PULSE LOW
+  digitalWrite (3, LOW);
+  
+  // LATCH PULSE LOW
+  digitalWrite (5, LOW);
 
-As stated by Harry Zhang, “Technological advances now enable a considerable amount of
-implicit user data to be captured when a user makes use of technology in their lives” (Zhang,
-2010). To gain a better understanding of the potential benefits of machine-assisted learning,
-particularly in the case of ML personality assessments, I plan to examine several areas of
-technology. To start, I’d like to examine ways machine learning is currently being used when it
-comes to understanding humanity within social media. We most commonly see this in marketing
-with the rise of targeted advertisements. Digital trackers known as ‘cookies’ are able to track
-user data in order to send them accurate advertisements (Kurkovsky, S. & Harihar, K., 2006 ).
-After watching a video about roller skating, for example, a viewer may be recommended an
-advertisement for a local roller skating venue. This form of machine-learning is often viewed as
-unethical by the masses (Zhang, 2010), but this does not mean all forms of ML meant to assist in
-human behaviors should be seen this way. Rather than focus on the ethicality of machine
-learning, I will focus on strictly on factual evidence and data.
+  // SELECT COLUMN
+  for (int i = 0; i <= 7; i++) {
+    int set = i + 6;
+    digitalWrite (set, LOW);
+    
 
-After looking at the ways machine learning is currently being used in regards to understanding,
-humanity, I plan to look into what is currently in development and what we can expect in the
-future.
+    // SELECT ROW
+    for (int j = 15; j >= 0; j--) {
+        // INPUT DATA START //////////
+        // SELECT DATA AT POSITION [i][j]
+        if (mainScreen[j][i] == 0){
+          digitalWrite (4, LOW);
+        }
+        else if (mainScreen[j][i] == 1){
+          digitalWrite (4, HIGH);
+        }
+        // INPUT DATA END ///////////
+      
+      
+      
+      // CLOCK PULSE HIGH
+      digitalWrite (3, HIGH);
 
-## Audience
+      // CLOCK PULSE LOW
+      digitalWrite (3, LOW);
+    }
+  
+    // LATCH PULSE HIGH
+    digitalWrite (5, HIGH);
 
-This report is aimed at the consumer and the casual user of modern technology, social media in
-particular. This report will help users understand where machine learning technologies currently
+    // LATCH PULSE LOW
+    digitalWrite (5, LOW);
 
-are and what the progress of ML technology will mean for the future.
+    // POWER UP THE INDICATOR LED
+    digitalWrite (set, HIGH);
+  }
+}
 
-## Sources
+```
 
-For outside consultation on this topic, I will look to two of my professors. Prof. Jody Newcomer,
-my communications professor, has a knowledge of human interaction through communication as
-well as digital communication. My mathematics professor, Prof. Joseph M. Miller, has
-knowledge in technology. I will also be able to speak with Prof. Jennifer Orlando, who currently
-teaches computer science at my campus.
-
-Bleidorn, W., & Hopwood, C. J. (2019). Using Machine Learning to Advance Personality
-Assessment and Theory. Personality and Social Psychology Review, 23(2), 190–203.
-https://doi.org/10.1177/1088868318772990
-This article informs a large portion of my report as it directly examines the ways in with
-machine learning is currently being adapted to examine human behaviors through social
-media.
-
-Leising, D., & Zimmermann, J. (2011). An Integrative Conceptual Framework for Assessing
-Personality and Personality Pathology. Review of General Psychology, 15(4), 317–330.
-While not focused on technology, this article examines the current ways in which we assess
-personality through text, the Diagnostic and Statistical Manual of Mental Disorders
-(DSM-5) in particular. Looking at ways personality can be examined without the aid of
-
-machine learning will create a framework for comparison when looking at ML personality
-assessments.
-
-Nicholson, C. (2019). Machine Learning Algorithms. Retrieved November 8, 2019, from
-https://skymind.ai/wiki/machine-learning-algorithms.
-This website gives basic, easily digestible definitions for highly technical topics. Since the
-topic of machine learning can be a difficult one to understand, this website was particularly
-useful to me since it breaks down complicated terminology and techniques.
-
-Van Dijck, J. (2005). From shoebox to performative agent: the computer as ... Retrieved
-November 8, 2019, from https://journals.sagepub.com/doi/10.1177/1461444805050765.
-Van Dijck does not examine machine learning in this article as much as he examines the
-concept of digital storage and human augmentation, which plays a role in the greater topic
-of social media.
-
-
-## Conclusion
-
-When collected ethically, the data we collect about the masses can be used to improve machinery
-and used to better understand ourselves.
+While I am still deeply confused by this, I'm proud of my work on this project. I find my code to be functional despite these display errors.

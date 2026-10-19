@@ -1,7 +1,7 @@
 ---
 title: "How New & Improved Circuits Are Making Loading Screens a Thing Of The Past"
 date: "2020-03-01"
-description: "Popular science writing article."
+description: "An article written in the 'pop science' style. This was stylized after works found within publications like Wired and The New Yorker."
 author: "Afi Belgrave"
 tags:
   - "Science Writing"
