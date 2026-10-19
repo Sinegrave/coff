@@ -27,7 +27,8 @@ There is a disconnect, according to Weiss, between the machine and the profiters
 
 The narrative of cobots enabling safe, intuitive, and flexible interactions [...] sounds very promising, especially for small and medium-sized enterprises (SMEs). However, as our article shows, automation in the form of cobots has currently only found its way into the world of work in limited applications [9].
 
-**Works Consulted**
+## **Works Consulted**
+
 A. Weiss, A. -K. Wortmeier and B. Kubicek, "Cobots in Industry 4.0: A Roadmap for Future Practice Studies on Human–Robot Collaboration," in IEEE Transactions on Human-Machine Systems, vol. 51, no. 4, pp. 335-345, Aug. 2021, doi: 10.1109/THMS.2021.3092684.
 
 Kadir, Bzhwen & Broberg, Ole & Conceição, Carolina. (2018). Designing human-robot collaborations in Industry 4.0 - explorative case studies. 10.21278/idc.2018.0319. 
