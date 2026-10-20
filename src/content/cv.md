@@ -28,7 +28,7 @@ education:
 ## Skills
 - **Industry** - Schematics, wiring diagrams, AutoCADD, SOLIDWORKS, MPLabs, Hyperterminal, Pickit 5, ICD 5, SUPERPRO, Dataman
 - **PLCs** — Micrologix 1000 + RSLogix, Studio 5000, RSLogix 5000, Allen-Bradley CompactLogix 
-Robotics — Mitsubishi RH-6FH3520-D1-S 4-axis SCARA Industrial Robotic Arms + MELFA Basic V + RT Toolbox 2 
+- **Robotics** — Mitsubishi RH-6FH3520-D1-S 4-axis SCARA Industrial Robotic Arms + MELFA Basic V + RT Toolbox 2 
 - **Machine Learning** — TensorFlow combined with Google Colab,. 3D Modeling — Blender + Unity (3.71, 4.31, 4.16, 4.20). 
 - **Programming Environments** — Eclipse, Visual Studio, Atom, VS Code, Dreamweaver
 - **Design** — Adobe Suite (Photoshop, InDesign, Lightroom, Premiere Pro), Wondershare Filmora 11, Sony Vegas 11. 
