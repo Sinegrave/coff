@@ -14,7 +14,9 @@ image: "/images/placeholder.svg"
     <source src="/images/IMG_0259.MOV" type="video/mp4">
 </video>
 
-> Builing a circuit that employs a phototransitor. The amount of light is interpreted and then converted to BCD. 1 indicates the total absense of light.
+> Builing a circuit that employs a phototransitor. The amount of light is interpreted and then converted to BCD. 0 indicates the total absense of light. Here, I used the sleeve of my sweater to add/remove light.
+
+
 
 <video width="400" controls autoplay>
     <source src="/images/IMG_0224.MOV" type="video/mp4">
