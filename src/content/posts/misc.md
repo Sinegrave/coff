@@ -16,3 +16,5 @@ videoembed.mp4
   <source src="public/images/IMG_0224.MOV" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+<video width="320" height="240" src="public/images/IMG_0224.MOV"></video>
