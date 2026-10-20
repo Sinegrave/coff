@@ -71,5 +71,3 @@ I created a second program called matrixTest.ino to work on the display without 
   }
 }
 ```
-
-While I am still deeply confused by this, I'm proud of my work on this project. I find my code to be functional despite these display errors.

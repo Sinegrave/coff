@@ -21,3 +21,5 @@ image: "/images/placeholder.svg"
 <video width="400" controls autoplay>
     <source src="/images/IMG_0224.MOV" type="video/mp4">
 </video>
+
+> Using AND gate ICs to create a circuit wherein lights turn on sequentially. 
