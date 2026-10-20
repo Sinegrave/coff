@@ -14,7 +14,7 @@ Throughout this time, I worked many jobs — from waiting tables to dealing Blac
 
 ## Current Work
 
-I currently work in the field of electronics testing where I ensure products work properly before sending them to our customers. At the time of writing, I have been working in this postion for the past five years.
+I'm test technician — I ensure products work properly before sending them to our customers. If they don't work, I troubleshoot the issue(s) until I find the root cause. At the time of writing, I have been working in this area for the past five years.
 
 Off the clock, I enjoy reading, writing, and mocha lattes.
 
@@ -25,4 +25,5 @@ My research focus includes: **Robotics**, **Sustainability**, **Mass Media**, an
 ---
 
 *“Eras are conveniences, particularly for those who never experienced them. We carve history from totalities beyond our grasp.”*
+
 ― William Gibson, The Peripheral
