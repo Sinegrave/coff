@@ -11,5 +11,5 @@ image: "/images/placeholder.svg"
 ---
 
 <video width="400" controls autoplay>
-    <source src="IMG_0224.MOV" type="video/mp4">
+    <source src="/images/IMG_0224.MOV" type="video/mp4">
 </video>
