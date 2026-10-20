@@ -27,7 +27,8 @@ education:
 
 ## Skills
 - Java, C++, C#, Arduino, HTML, CSS5, Javascript
+- Studio 5000, RSLogix 5000, Allen-Bradley CompactLogix PLCs, 
 - Adobe Suite, Unity, Blender, VS Code, Dreamweaver, Eclipse, Atom
-- MPLabs, Hyperterminal, Pickit 5, ICD 5, SUPERPRO, Dataman
+- AutoCADD, SOLIDWORKS, MPLabs, Hyperterminal, Pickit 5, ICD 5, SUPERPRO, Dataman
 - Schematics, wiring diagrams
 - AP Style
