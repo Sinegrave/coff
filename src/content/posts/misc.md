@@ -9,8 +9,8 @@ tags:
   - "Component Level"
 image: "/images/placeholder.svg"
 ---
-
-<video width="400" controls autoplay>
+## Building Circuits
+<video width="400" controls>
     <source src="/images/IMG_0259.MOV" type="video/mp4">
 </video>
 
@@ -18,7 +18,7 @@ image: "/images/placeholder.svg"
 
 
 
-<video width="400" controls autoplay>
+<video width="400" controls>
     <source src="/images/IMG_0224.MOV" type="video/mp4">
 </video>
 
